@@ -13,13 +13,11 @@ import directory from './images/school.jpg'
 import scaffold from './images/socialmedia.jpg'
 import ceneval from './images/ceneval.png'
 import './Jessica2.js'
-//import Jessica2.js
 
 
 helper.img("Ruby", Ruby,'');
 helper.img("kasra", kasra,'');
 helper.img("htmlcss", html,'');
-
 helper.img("ror", ror,'');
 helper.img("newsweek",newsweek);
 helper.img("twitter", twitter);
