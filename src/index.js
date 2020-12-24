@@ -12,6 +12,9 @@ import twitter from './images/twitter_clone.jpg'
 import directory from './images/school.jpg'
 import scaffold from './images/socialmedia.jpg'
 import ceneval from './images/ceneval.png'
+import forecast from './images/Weather.jpg'
+import game from './images/computer.png'
+import restaurant from './images/57297.jpg'
 import './Jessica2.js'
 
 
@@ -24,5 +27,9 @@ helper.img("twitter", twitter);
 helper.img("directory", directory);
 helper.img("scaffold", scaffold);
 helper.img("ceneval", ceneval);
+
+helper.img("restaurant",restaurant);
+helper.img("forecast",forecast);
+helper.img("game",game);
 
 
