@@ -15,6 +15,7 @@ import ceneval from './images/ceneval.png'
 import forecast from './images/Weather.jpg'
 import game from './images/computer.png'
 import restaurant from './images/57297.jpg'
+import jes from './images/jessica.png'
 import './Jessica2.js'
 
 
@@ -30,6 +31,7 @@ helper.img("ceneval", ceneval);
 
 helper.img("restaurant",restaurant);
 helper.img("forecast",forecast);
+helper.img("jess", jes);
 helper.img("game",game);
 
 
