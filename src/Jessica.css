@@ -68,7 +68,6 @@ background: linear-gradient(90deg, rgba(33,5,61,0.7959558823529411) 0%, rgba(17,
 }
 
 .project:hover{
-  background-color:  rgba(238, 238, 238, 0.371);
   border: 1px solid rgba(175, 101, 3, 0.83);
 }
 .info{
