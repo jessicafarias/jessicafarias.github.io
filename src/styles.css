@@ -178,7 +178,9 @@ canvas {
   margin: 0 0;
   height: 10vh;
   max-height: 100px;
-  background-image: url("./images/back.jpg");
+  background-image: url("./images/back3.jpg");
+  background: rgb(47,19,75);
+background: linear-gradient(180deg, rgba(47,19,75,1) 0%, rgba(81,12,97,1) 53%, rgba(118,22,144,1) 100%);
   background-size: cover;
 }
 
@@ -213,15 +215,15 @@ canvas {
 }
 
 .bg-img1 {
-  background-image: url("./images/back.jpg");
+  background-image: url("./images/back3.jpg");
+  
   background-size: 180%;
 }
 
 .bg-img2 {
-  background-image: url("./images/fibra.jpg");
-  background-size: cover;
+  background: rgb(46,5,66);
+  background: linear-gradient(180deg, rgba(46,5,66,1) 0%, rgba(91,39,133,1) 100%);
 }
-
 .color {
   color: #da6200;
 }

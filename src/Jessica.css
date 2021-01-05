@@ -16,8 +16,8 @@ a {
 #Creative {
   position: relative;
   margin: 0 0;
-  min-height: 85vh;
-  max-height: 100%;
+  min-height: 20vh;
+  max-height: 30vh;
   color: #9c78b4a2;
 }
 
