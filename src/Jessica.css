@@ -1,10 +1,14 @@
-html,
+html{
+  overflow-x: hidden;
+}
 body {
   height: 100%;
   top: 0;
-  margin: 0;
+  margin: auto;
   overflow-x: hidden;
+  max-width: 1200px;
 }
+
 a {
   font-size: 15px;
 }
@@ -51,4 +55,27 @@ footer #socialmedia img {
 
 footer #socialmedia img:hover {
   opacity: 1;
+}
+
+.project{
+  border-radius: 10px;
+}
+
+.projectborder{
+  background: rgb(33,5,61);
+background: linear-gradient(90deg, rgba(33,5,61,0.7959558823529411) 0%, rgba(17,2,24,1) 35%, rgba(55,8,85,1) 67%, rgba(91,14,142,1) 84%, rgba(67,16,103,0.7035189075630253) 100%);
+
+}
+
+.project:hover{
+  background-color:  rgba(238, 238, 238, 0.371);
+  border: 1px solid rgba(175, 101, 3, 0.83);
+}
+.info{
+  font-size: 14px;
+}
+
+.bold{
+  font-weight: bold;
+  color: rgba(138, 138, 138, 0.761);
 }

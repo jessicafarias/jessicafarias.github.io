@@ -20,7 +20,7 @@ import './Jessica2.js'
 
 
 helper.img("Ruby", Ruby,'');
-helper.img("kasra", kasra,'');
+//helper.img("kasra", kasra,'');
 helper.img("htmlcss", html,'');
 helper.img("ror", ror,'');
 helper.img("newsweek",newsweek);
@@ -28,7 +28,6 @@ helper.img("twitter", twitter);
 helper.img("directory", directory);
 helper.img("scaffold", scaffold);
 helper.img("ceneval", ceneval);
-
 helper.img("restaurant",restaurant);
 helper.img("forecast",forecast);
 helper.img("jess", jes);

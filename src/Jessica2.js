@@ -27,7 +27,7 @@ frame2.on("ready", function() { // ES6 Arrow Function
     var count = 0;
     timeout(5, function () {
         interval({min:100, max:500}, function (obj) {
-            var JesNum=rand(70,100);
+            var JesNum=rand(70,90);
             if (planets.length < words.length) {
                 var c = new Circle(JesNum).ble("difference");
                 c.label = new Label(words[count], 30, null, white, white, {backgroundColor:black}).centerReg(c);
@@ -36,12 +36,12 @@ frame2.on("ready", function() { // ES6 Arrow Function
                 var c = planets[count];
             }
             c.sca(.5).reg(0).center(stage).mov(rand(-stageW,stageW),rand(-stageH,stageH)).bot().ord(1).alp(0).rot(rand(360))
-                .animate({alpha:1}, 5000)
+                .animate({alpha:1}, 3000)
                 .animate({
                     props:{regX:stageW/2, scale:1.5},
                     time:22000,
                     call:function (target) {
-                        target.animate({alpha:0}, 3000);
+                        target.animate({alpha:0}, 2000);
                     }
                 });
             c.color = Pick.choose(["#AF000B70","#E5910070","#EFB41070","#EDCF0B70","#EA6F1770 ","#FAF9FC70"]);

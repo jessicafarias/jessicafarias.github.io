@@ -89,7 +89,7 @@
   right: auto;
   bottom: 0;
   left: 5%;
-  background-color: #e5e5e5;
+  background-color: #333;
   -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
@@ -101,7 +101,7 @@
   bottom: 10%;
   left: 10px;
   content: "";
-  background-image: url(./images/university.png);
+  background-image: url(./images/corazon.png);
   background-size: cover;
   border-radius: 5px;
   animation-name: scrolling2;
@@ -176,8 +176,8 @@ canvas {
 #Creative {
   position: relative;
   margin: 0 0;
-  min-height: 40vh;
-  max-height: 300px;
+  height: 10vh;
+  max-height: 100px;
   background-image: url("./images/back.jpg");
   background-size: cover;
 }
@@ -209,6 +209,7 @@ canvas {
 
 .img {
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .bg-img1 {
@@ -236,4 +237,8 @@ iframe {
 
 .cube {
   background-color: #131313;
+}
+
+.shadow{
+  text-shadow: 2px 2px 3px #000000;
 }
