@@ -66,7 +66,7 @@
 
 @keyframes scrolling {
   0% { background-position: top center; }
-  50% { background-position: 30% center; }
+  50% { background-position: 5% center; }
   100% { background-position: top center; }
 }
 
@@ -75,9 +75,8 @@
     background-position: top center;
   }
 
-  100% {
-    background-position: center center;
-  }
+  50% { background-position: 5% center; }
+  100% { background-position: top center; }
 }
 
 .product-device-2 {
@@ -243,4 +242,8 @@ iframe {
 
 .shadow{
   text-shadow: 2px 2px 3px #000000;
+}
+
+.imagenhov:hover{
+  box-shadow: 2px 2px 3px #000000;
 }
