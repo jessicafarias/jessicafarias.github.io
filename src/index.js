@@ -18,6 +18,7 @@ import restaurant from './images/57297.jpg'
 import jes from './images/jessica.png'
 import './Jessica2.js'
 import pdf from './images/JessicaFarias.pdf'
+import icon from './images/logo.png'
 
 
 helper.img("Ruby", Ruby,'');
@@ -108,6 +109,8 @@ helper.btn('RepoSocial',  ()=>{
     openInNewTab('https://github.com/jessicafarias/ror-social-scaffold'), ''
    }
 );
+
+$('head').append("<link rel='shortcut icon' href='"+icon+"'>");
 
 
 
