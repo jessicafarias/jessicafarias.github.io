@@ -99,12 +99,12 @@ helper.btn('RepoRestaurant',  ()=>{
 );
 
 helper.btn('BtnSocial',  ()=>{   
-    openInNewTab('https://github.com/jessicafarias/ror-social-scaffold'), ''
+    openInNewTab('https://social-media-jess-ara.herokuapp.com/users/sign_in'), ''
    }
 );
 
 helper.btn('RepoSocial',  ()=>{   
-    openInNewTab('https://social-media-jess-ara.herokuapp.com/users/sign_in'), ''
+    openInNewTab('https://github.com/jessicafarias/ror-social-scaffold'), ''
    }
 );
 
