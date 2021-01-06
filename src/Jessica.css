@@ -58,7 +58,9 @@ footer #socialmedia img:hover {
 }
 
 .project{
+  border: 1px solid rgba(238, 238, 238, 0.83);
   border-radius: 10px;
+  padding: 5px;
 }
 
 .projectborder{
@@ -68,7 +70,7 @@ background: linear-gradient(90deg, rgba(33,5,61,0.7959558823529411) 0%, rgba(17,
 }
 
 .project:hover{
-  border: 1px solid rgba(175, 101, 3, 0.83);
+  border: 1px solid rgba(238, 238, 238, 0.897);
 }
 .info{
   font-size: 15px;
