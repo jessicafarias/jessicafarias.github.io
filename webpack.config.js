@@ -5,7 +5,12 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {
   entry: './src/index.js',
   plugins: [
-    new CleanWebpackPlugin(),
+    new CleanWebpackPlugin(
+      {
+        exclude: ["JessicaFarias.pdf"]
+      }
+
+    ),
     new HTMLWebpackPlugin({
       filename: 'index.html',
       template: './src/template.html',
@@ -28,6 +33,17 @@ module.exports = {
         test: /\.(png|jpg|jpeg|gif|ico|svg)$/,
         use: [
             'file-loader'
+        ]
+      },
+      {
+        test: /\.(pdf)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]'
+            }
+          }
         ]
       },
       {

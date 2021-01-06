@@ -17,6 +17,7 @@ import game from './images/game.jpg'
 import restaurant from './images/57297.jpg'
 import jes from './images/jessica.png'
 import './Jessica2.js'
+import pdf from './images/JessicaFarias.pdf'
 
 
 helper.img("Ruby", Ruby,'');
