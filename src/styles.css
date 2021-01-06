@@ -177,8 +177,8 @@ canvas {
   margin: 0 0;
   height: 10vh;
   max-height: 100px;
+  background-color: rgb(45, 10, 80);
   background-image: url("./images/back.jpg");
-  background: rgb(47,19,75);
 background: linear-gradient(180deg, rgba(47,19,75,1) 0%, rgba(81,12,97,1) 53%, rgba(118,22,144,1) 100%);
   background-size: cover;
 }
@@ -214,8 +214,8 @@ background: linear-gradient(180deg, rgba(47,19,75,1) 0%, rgba(81,12,97,1) 53%, r
 }
 
 .bg-img1 {
-  background-image: url("./images/back.jpg");
-  
+  background-color: rgb(58, 20, 95);
+  background-image: url("./images/back3.jpg");
   background-size: 180%;
 }
 
