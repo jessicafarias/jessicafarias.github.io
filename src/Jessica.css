@@ -83,3 +83,11 @@ background: linear-gradient(90deg, rgba(33,5,61,0.7959558823529411) 0%, rgba(17,
 .text-black{
   color: black;
 }
+
+.link-black{
+ color: rgba(0, 0, 0, 0.945);
+}
+
+.link-black:hover{
+  color: rgba(36, 36, 36, 0.89);
+ }
