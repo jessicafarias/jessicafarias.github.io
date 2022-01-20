@@ -1,10 +1,14 @@
-html,
+html{
+  overflow-x: hidden;
+}
 body {
   height: 100%;
   top: 0;
-  margin: 0;
+  margin: auto;
   overflow-x: hidden;
+  max-width: 1200px;
 }
+
 a {
   font-size: 15px;
 }
@@ -12,8 +16,8 @@ a {
 #Creative {
   position: relative;
   margin: 0 0;
-  min-height: 85vh;
-  max-height: 100%;
+  min-height: 20vh;
+  max-height: 30vh;
   color: #9c78b4a2;
 }
 
@@ -52,3 +56,38 @@ footer #socialmedia img {
 footer #socialmedia img:hover {
   opacity: 1;
 }
+
+.project{
+  border: 1px solid rgba(238, 238, 238, 0.83);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.projectborder{
+  background: rgb(33,5,61);
+background: linear-gradient(90deg, rgba(33,5,61,0.7959558823529411) 0%, rgba(17,2,24,1) 35%, rgba(55,8,85,1) 67%, rgba(91,14,142,1) 84%, rgba(67,16,103,0.7035189075630253) 100%);
+
+}
+
+.project:hover{
+  border: 1px solid rgba(238, 238, 238, 0.897);
+}
+.info{
+  font-size: 15px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.text-black{
+  color: black;
+}
+
+.link-black{
+ color: rgba(0, 0, 0, 0.945);
+}
+
+.link-black:hover{
+  color: rgba(36, 36, 36, 0.89);
+ }

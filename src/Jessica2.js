@@ -20,14 +20,14 @@ frame2.on("ready", function() { // ES6 Arrow Function
     frame2.canvas.style.zIndex = 5;
     frame2.canvas.style.pointerEvents = "none";
 
-    var words = ["Jessica", "Farias", "CSS", "HTML", "C#", "Ladder", "PLC", "SolidWorks", "JavaScript", "Java", "SQL", "Visual\nStudio", "VSC", "MySQL", 
-    "SASS", "c++", "Photoshop", "Proteus", "SQLite", "Android", 
-    "pgadmin", "Google\nCloud"];
+    var words = ["Jessica", "Farias", "CSS", "HTML", "C#", "jQuery", "SolidWorks", "JavaScript", "Java", "SQL", "Visual\nStudio", "VSC", 
+    "SASS", "Bootstrap", "Ruby\n on Rais", "Ruby", "React", "Android",  
+    "Redux", "Google\nCloud"];
     var planets = []; // pool circles
     var count = 0;
     timeout(5, function () {
-        interval({min:100, max:500}, function (obj) {
-            var JesNum=rand(70,100);
+        interval({min:100, max:400}, function (obj) {
+            var JesNum=rand(70,90);
             if (planets.length < words.length) {
                 var c = new Circle(JesNum).ble("difference");
                 c.label = new Label(words[count], 30, null, white, white, {backgroundColor:black}).centerReg(c);
@@ -36,15 +36,15 @@ frame2.on("ready", function() { // ES6 Arrow Function
                 var c = planets[count];
             }
             c.sca(.5).reg(0).center(stage).mov(rand(-stageW,stageW),rand(-stageH,stageH)).bot().ord(1).alp(0).rot(rand(360))
-                .animate({alpha:1}, 5000)
+                .animate({alpha:1}, 3000)
                 .animate({
                     props:{regX:stageW/2, scale:1.5},
                     time:22000,
                     call:function (target) {
-                        target.animate({alpha:0}, 3000);
+                        target.animate({alpha:0}, 2000);
                     }
                 });
-            c.color = Pick.choose(["#AF000B70","#E5910070","#EFB41070","#EDCF0B70","#EA6F1770 ","#FAF9FC70"]);
+            c.color = Pick.choose(["#AD007970","#79BAE070","#EFB41070","#7217EA70","#80808070 ","#8400C170"]);
             c.label.rot(-c.rotation+rand(-10,10));
             if (count == words.length-1) {
                 obj.pause();

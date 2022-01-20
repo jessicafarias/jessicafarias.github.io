@@ -66,7 +66,7 @@
 
 @keyframes scrolling {
   0% { background-position: top center; }
-  50% { background-position: 30% center; }
+  50% { background-position: 5% center; }
   100% { background-position: top center; }
 }
 
@@ -75,9 +75,8 @@
     background-position: top center;
   }
 
-  100% {
-    background-position: center center;
-  }
+  50% { background-position: 5% center; }
+  100% { background-position: top center; }
 }
 
 .product-device-2 {
@@ -89,7 +88,7 @@
   right: auto;
   bottom: 0;
   left: 5%;
-  background-color: #e5e5e5;
+  background-color: #333;
   -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
@@ -101,7 +100,7 @@
   bottom: 10%;
   left: 10px;
   content: "";
-  background-image: url(./images/university.png);
+  background-image: url(./images/corazon.png);
   background-size: cover;
   border-radius: 5px;
   animation-name: scrolling2;
@@ -176,9 +175,11 @@ canvas {
 #Creative {
   position: relative;
   margin: 0 0;
-  min-height: 40vh;
-  max-height: 300px;
+  height: 10vh;
+  max-height: 100px;
+  background-color: rgb(45, 10, 80);
   background-image: url("./images/back.jpg");
+background: linear-gradient(180deg, rgba(47,19,75,1) 0%, rgba(81,12,97,1) 53%, rgba(118,22,144,1) 100%);
   background-size: cover;
 }
 
@@ -209,18 +210,19 @@ canvas {
 
 .img {
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .bg-img1 {
-  background-image: url("./images/back.jpg");
+  background-color: rgb(58, 20, 95);
+  background-image: url("./images/back3.jpg");
   background-size: 180%;
 }
 
 .bg-img2 {
-  background-image: url("./images/fibra.jpg");
-  background-size: cover;
+  background: rgb(46,5,66);
+  background: linear-gradient(180deg, rgba(46,5,66,1) 0%, rgba(91,39,133,1) 100%);
 }
-
 .color {
   color: #da6200;
 }
@@ -236,4 +238,12 @@ iframe {
 
 .cube {
   background-color: #131313;
+}
+
+.shadow{
+  text-shadow: 2px 2px 3px #000000;
+}
+
+.imagenhov:hover{
+  box-shadow: 2px 2px 3px #000000;
 }
